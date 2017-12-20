@@ -13,3 +13,5 @@ myRotate.init({
     round:0/*旋转的轮数，不需要配置*/
 })
 ```
+# PS
+本插件不适用于不支持transform的浏览器
