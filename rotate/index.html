@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit"/> 
+	<title>转盘</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="rotate.js"></script>
+</head>
+<body>
+	<div class="my-box">
+		<div class="box" id="pan">
+			<div class="pan-wrap" id="ww">
+				<img src="images/part.png" class="pan-parts" style="transition: all 4s;transform:rotate(0deg);">
+				<img src="images/btn.png" class="pan-btn">
+			</div>
+		</div>
+		
+
+	</div>
+
+
+</body>
+<script type="text/javascript">
+	myRotate.init({
+		startBtn:".pan-btn",
+		el:'.pan-parts',
+		speed:4000,
+		angle:0,
+		isBegining:false
+	})
+
+
+
+</script>
+</html>
